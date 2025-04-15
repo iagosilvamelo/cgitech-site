@@ -6,21 +6,21 @@
       <div v-else class="w-28"></div>
 
       <ul class="hidden md:flex space-x-6 text-sm uppercase tracking-wide">
-        <li>
+        <li data-aos="fade-left">
           <a href="#home" @click.prevent="$scrollTo('home')" class="hover:text-accent transition">Início</a>
         </li>
-        <li>
+        <li data-aos="fade-left" data-aos-delay="200">
           <a href="#descricao" @click.prevent="$scrollTo('descricao')" class="hover:text-accent transition">Sobre</a>
         </li>
-        <li>
+        <li data-aos="fade-left" data-aos-delay="300">
           <a href="#portfolio" @click.prevent="$scrollTo('portfolio')"
             class="hover:text-accent transition">Portifólio</a>
         </li>
-        <li>
+        <li data-aos="fade-left" data-aos-delay="400">
           <a href="#beneficios" @click.prevent="$scrollTo('beneficios')"
             class="hover:text-accent transition">Benefícios</a>
         </li>
-        <li>
+        <li data-aos="fade-left" data-aos-delay="500">
           <a href="#social" @click.prevent="$scrollTo('social')" class="hover:text-accent transition">Social</a>
         </li>
       </ul>

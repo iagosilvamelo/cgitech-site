@@ -7,6 +7,14 @@ import App from './App.vue'
 import router from './router'
 
 import scrollToPlugin from './plugins/scrollTo'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+AOS.init({
+  duration: 800, // tempo da animação
+  once: false,    // anima apenas uma vez
+  offset: 100    // distância do scroll até iniciar animação
+})
 
 const app = createApp(App)
 
